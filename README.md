@@ -1,20 +1,20 @@
 # just-another-discord-bot
 ===================
 
-##!define 
+## !define 
 gets the word to define through the urban dictionary API
 
-##cat
+## cat
 gets a random cat picture :D
 
-##!zucc 
+## !zucc 
 flaming duck
 
-##!ping 
+## !ping 
 check ping
 
-##!say 
+## !say 
 literally just an echo bot.
 
-##!avatar 
+## !avatar 
 just shows you your avatar <sup><sub> in a really mean way </sub></sup>
