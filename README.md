@@ -1,5 +1,5 @@
 # just-another-discord-bot
-===================
+***
 
 ## !define 
 gets the word to define through the urban dictionary API
