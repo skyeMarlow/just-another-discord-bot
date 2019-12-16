@@ -27,7 +27,7 @@ This does not work
 
 //TODO: fix stats, implement sharding, add more commands.
 ***
-##Dungeons And Dragons Commands
+## Dungeons And Dragons Commands
 ***
 ## !spell <spell name>
 info about the spell
@@ -40,7 +40,9 @@ info about the race.
 
 ## !roll <args>
 use the format "{number to roll}d{number of sides on the dice}" 
-  
+
+***
+
 //TODO : add equipment (armour, weapons, magicitems) and damage types.
 
 The D&D commands only use the SRD at the moment
