@@ -10,7 +10,6 @@ module.exports = {
 		});
 
 		message.channel.send(theUser);
-
 		
-	},
+	}
 }; 

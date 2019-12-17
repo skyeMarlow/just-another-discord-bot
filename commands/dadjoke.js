@@ -2,7 +2,7 @@ const fetch = require('node-fetch');
 
 module.exports = {
 	name: 'dadjoke',
-	description: 'Get a random cat',
+	description: 'Get a random dad joke',
 	async execute(message) {
 		const file  = await fetch('https://us-central1-dadsofunny.cloudfunctions.net/DadJokes/random/jokes')
 		.then(response => response.json());
