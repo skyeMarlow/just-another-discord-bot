@@ -1,44 +1,44 @@
 # just-another-discord-bot
 ***
 
-## !define 
+## &define 
 gets the word to define through the urban dictionary API.
 
-## !cat
+## &cat
 gets a random cat picture :D
 
-## !zucc 
+## &zucc 
 flaming duck
 
-## !ping 
+## &ping 
 check ping
 
-## !say 
+## &say 
 literally just an echo bot.
 
-## !avatar 
+## &avatar 
 just shows you your avatar or someone elses. use the format !avatar[@''] to get someone else's avatar.
 
-## !dadjoke
+## &dadjoke
 random joke
 
-## !stats
+## &stats
 This does not work
 
 //TODO: fix stats, implement sharding, add more commands.
 ***
 ## Dungeons And Dragons Commands
 ***
-## !spell <spell name>
+## &spell <spell name>
 info about the spell
 
-## !class <spell name>
+## &class <spell name>
 info about the class
   
-## !race <spell name>
+## &race <spell name>
 info about the race. 
 
-## !roll <args>
+## &roll <args>
 use the format "{number to roll}d{number of sides on the dice}" 
 
 ***
