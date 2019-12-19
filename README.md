@@ -9,6 +9,7 @@ gets a random cat picture :D
 
 ## &zucc 
 flaming duck
+aliases: 'duck'
 
 ## &ping 
 check ping
@@ -40,6 +41,7 @@ info about the race.
 
 ## &roll <args>
 use the format "{number to roll}d{number of sides on the dice}" 
+aliases: 'r', 'dice'
 
 ***
 
