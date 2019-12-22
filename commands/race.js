@@ -9,7 +9,7 @@ module.exports = {
 
 		const  list  = await fetch('https://api.open5e.com/races/' + raceName + '/?format=json')
 	    .then(response => response.json());
-	   
+	   //
 
 	    if(list.detail == 'Not found.'){
 	    	return message.channel.send("Sorry, cannot find that race, please check your spelling!");
