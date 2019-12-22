@@ -24,6 +24,10 @@ module.exports = {
 
 	    const [answer] = list;
 
+	    if (answer.example === ""){
+	    	answer.example = 'None Provided';
+	    }
+
 	  	const embed = new Discord.RichEmbed()
 	  	.setColor('#EFFF00')
 	  	.setTitle(answer.word)
