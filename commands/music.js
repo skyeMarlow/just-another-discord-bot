@@ -2,7 +2,7 @@ const ytdl = require('ytdl-core');
 module.exports = {
 	name: 'music',
 	aliases: ['play'],
-	description: 'this plays rick astley'
+	description: 'this plays rick astley',
 	execute(message) {
 		if (message.channel.type !== 'text') return;
 
