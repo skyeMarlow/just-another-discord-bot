@@ -13,6 +13,7 @@ module.exports = {
 
 		voiceChannel.join().then(connection => {
 			const stream = ytdl('https://www.youtube.com/watch?v=dQw4w9WgXcQ', { filter: 'audioonly' });
+			//this is rick astley
 			const dispatcher = connection.playStream(stream);
 
 			dispatcher.on('end', () => voiceChannel.leave());
