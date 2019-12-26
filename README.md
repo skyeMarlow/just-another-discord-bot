@@ -24,7 +24,13 @@ just shows you your avatar or someone elses. use the format !avatar[@''] to get 
 random joke
 
 ## &stats
-This does not work
+.
+
+## &quiz
+needs more questions 
+
+## &play
+this plays rick astley :sparkles:
 
 //TODO: fix stats, implement sharding, add more commands.
 ***
@@ -42,7 +48,7 @@ info about the race.
 ## &roll <args>
 use the format "{number to roll}d{number of sides on the dice}" 
 aliases: 'r', 'dice'
-
+  
 ***
 
 //TODO : add equipment (armour, weapons, magicitems) and damage types.
