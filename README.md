@@ -24,7 +24,7 @@ just shows you your avatar or someone elses. use the format !avatar[@''] to get 
 random joke
 
 ## &stats
-.
+
 
 ## &quiz
 needs more questions 
@@ -32,7 +32,10 @@ needs more questions
 ## &play
 this plays rick astley :sparkles:
 
-//TODO: fix stats, implement sharding, add more commands.
+## &google
+uses LMGTFY
+
+//TODO: implement sharding, add more commands.
 ***
 ## Dungeons And Dragons Commands
 ***
