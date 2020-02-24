@@ -51,9 +51,13 @@ info about the race.
 ## &roll <args>
 use the format "{number to roll}d{number of sides on the dice}" 
 aliases: 'r', 'dice'
-  
+
+### Using 5e.tools
 ***
 
 //TODO : add equipment (armour, weapons, magicitems) and damage types.
 
 The D&D commands only use the SRD at the moment
+
+
+<sub><sup>Using most official dnd content provided they are licenced under OGL</sup></sub>
