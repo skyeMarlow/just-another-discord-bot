@@ -1,25 +1,47 @@
 const fetch = require('node-fetch');
+var data = require('../data/monster.json');
+const Discord = require('discord.js');
 
 module.exports = {
 	name: 'monster',
-	description: 'Get information about a dnd class',
+	description: 'Get information about a dnd monster',
 	async execute(message, args) {
 
-		const monsterName = message.content.split(" ").slice(1).join("-").toLowerCase();
-		console.log(monsterName);
+		const monsterName = message.content.split(" ").slice(1).join(" ").toLowerCase();
 
-		const  list  = await fetch('https://api.open5e.com/monsters/' + monsterName + '/?format=json')
-	    .then(response => response.json());
-	   
+		for (let i = 0; i < data.length ; i++){
+			let temp = data[i].name.toLowerCase();
+			if(monsterName == temp){
+				var queriedMonster = data[i];
+				console.log("found");
+			break;
+		}
+	}   
 
-	    if(list.detail == 'Not found.'){
-	    	return message.channel.send("Sorry, cannot find that monster, please check your spelling!");
-	    }
+	const embed = new Discord.RichEmbed()
+	  	.setColor('#EFFF00')
+	  	.setTitle(queriedMonster.name)
+			.setAuthor(message.author.username, message.author.avatarURL)
+			.addField("Type", queriedMonster.type)
+			.addField("speed", queriedMonster.speed)
+	  	.addField("Size", queriedMonster.size, true)
+			.addField("AC", queriedMonster.ac, true)
+			.addField("HP", queriedMonster.hp, true)
+			.addField("Languages", queriedMonster.languages)
+			.setFooter(`Challenge Rating: ${queriedMonster.cr}`)
 
-	    message.channel.send (`**${list.name}: ** \n**Size:** ${list.size} \n**Type:** ${list.type} \n**SubType** ${list.subtype} \n**AC:** ${list.armor_class} \n**Hit dice:** ${list.hit_dice} \n**Speed:** ${list.speed.walk}`
-	    	+ `\n**Str Save:** ${list.strength_save} \n**Dex Save:** ${list.dexterity_save} \n**Con Save:** ${list.constitution_save}`
-	    	+ `\n**Int Save:** ${list.intelligence_save} \n**Wis Save:** ${list.wisdom_save} \n**Cha Save:** ${list.charisma_save}`
-	    	+ `\n**Perception:** ${list.perception}` );
+			if (typeof queriedMonster.save != 'undefined'){
+			embed.addField("Saves", queriedMonster.save)
+			}
 
-	},
-}; 
+			for (i in queriedMonster.trait){
+	  		embed.addField(`${queriedMonster.trait[i].name}`, queriedMonster.trait[i].text)
+	  	} 
+
+				for (i in queriedMonster.action){
+	  		embed.addField(`${queriedMonster.action[i].name}`, queriedMonster.action[i].text)
+	  	}
+
+	message.channel.send(embed);
+}
+};  

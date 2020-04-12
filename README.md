@@ -1,7 +1,6 @@
 # just-another-discord-bot
 ***
-## General commands
-***
+
 ## &define 
 gets the word to define through the urban dictionary API.
 
@@ -19,7 +18,7 @@ check ping
 literally just an echo bot.
 
 ## &avatar 
-just shows you your avatar or someone elses. use the format !avatar @username to get someone else's avatar.
+just shows you your avatar or someone elses. use the format !avatar[@''] to get someone else's avatar.
 
 ## &dadjoke
 random joke
@@ -49,18 +48,16 @@ info about the class
 ## &race <spell name>
 info about the race. 
 
-## &monster <monster name>
-info about the monster
-
 ## &roll <args>
 use the format "{number to roll}d{number of sides on the dice}" 
 aliases: 'r', 'dice'
 
-***
 ### Using 5e.tools
 ***
 
 //TODO : add equipment (armour, weapons, magicitems) and damage types.
 
-<sub><sup>Using most official dnd content provided they are licenced under OGL</sup></sub>
+The D&D commands only use the SRD at the moment
 
+
+<sub><sup>Using most official dnd content provided they are licenced under OGL</sup></sub>
