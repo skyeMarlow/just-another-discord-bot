@@ -13,7 +13,6 @@ for (var file of commandFiles) {
 }
 
 client.on('ready', () => {
-	keepAlive();
     console.log(`Logged in as ${client.user.tag}!` + 'I am ready to go!');
     console.log(`Bot has started, with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`); 
     client.user.setActivity(`currently in ${client.guilds.size} servers`, { type: 'PLAYING' });
