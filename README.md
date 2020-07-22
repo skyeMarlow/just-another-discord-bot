@@ -58,6 +58,10 @@ aliases: 'r', 'dice'
 I was using a combination of Repl.it and uptimerobot to host but this wasn't very efficient and didn't let me edit the code properly. 
 Now the official bot is not hosted until I think its ready.
 ***
+## How to host on your own server
+* fork repository
+* open repo
+***
 
 //TODO : add equipment (armour, weapons, magicitems) and damage types.
 
