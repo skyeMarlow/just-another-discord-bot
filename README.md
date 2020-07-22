@@ -54,10 +54,14 @@ aliases: 'r', 'dice'
 
 ### Using 5e.tools
 ***
+## Hosting
+I was using a combination of Repl.it and uptimerobot to host but this wasn't very efficient and didn't let me edit the code properly. 
+Now the official bot is not hosted until I think its ready.
+***
 
 //TODO : add equipment (armour, weapons, magicitems) and damage types.
 
-The D&D commands only use the SRD at the moment
+The D&D commands only use the SRD at the moment. I will eventually add content from other WoTC properties.
 
 
 <sub><sup>Using most official dnd content provided they are licenced under OGL</sup></sub>
