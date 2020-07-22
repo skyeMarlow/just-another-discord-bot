@@ -58,9 +58,14 @@ aliases: 'r', 'dice'
 I was using a combination of Repl.it and uptimerobot to host but this wasn't very efficient and didn't let me edit the code properly. 
 Now the official bot is not hosted until I think its ready.
 ***
-## How to host on your own server
+## How to host on your own server (needs Node.js installed)
 * fork repository
 * open repo
+* create a auth.js file in the same folder as index.js
+* in the config put in your bot token and preffered prefix. 
+* navigate to the folder in console.
+* type 'node index.js'
+* it should now be running!!! :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: 
 ***
 
 //TODO : add equipment (armour, weapons, magicitems) and damage types.
@@ -69,3 +74,4 @@ The D&D commands only use the SRD at the moment. I will eventually add content f
 
 
 <sub><sup>Using most official dnd content provided they are licenced under OGL</sup></sub>
+<sub><sup>Using discord.js</sup></sub>
