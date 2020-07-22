@@ -18,22 +18,22 @@ check ping
 literally just an echo bot.
 
 ## &avatar 
-just shows you your avatar or someone elses. use the format !avatar[@''] to get someone else's avatar.
+just shows you your avatar or someone elses. use the format &avatar[@'username'] (eg. &avatar @skyerin8) to get someone else's avatar.
 
 ## &dadjoke
 random joke
 
 ## &stats
-
+stats on how many servers the bot is hosted on.
 
 ## &quiz
-needs more questions 
+just something to practice ongoing messages to the bot. 
 
 ## &play
 this plays rick astley :sparkles:
 
-## &google
-uses LMGTFY
+## &google <Query>
+uses LMGTFY to google the query you send.
 
 //TODO: implement sharding, add more commands.
 ***
